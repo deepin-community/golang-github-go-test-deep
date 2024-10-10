@@ -1,5 +1,47 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-go-test-deep (1.0.8-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 1.0.8
+  * Change Section from devel to golang
+  * Bump debhelper build-dependency to debhelper-compat (= 13)"
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.2 (no change)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Wed, 25 Jan 2023 12:52:46 -0700
+
+golang-github-go-test-deep (1.0.6-1) unstable; urgency=medium
+
+  [ Dawid Dziurla ]
+  * New upstream version 1.0.6
+  * d/copyright: delete Files-Excluded
+  * d/control: bump standards
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints. + golang-github-go-test-deep-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 14 Dec 2022 20:43:21 +0000
+
+golang-github-go-test-deep (1.0.3-1) unstable; urgency=medium
+
+  * New upstream version 1.0.3
+
+ -- Dawid Dziurla <dawidd0811@gmail.com>  Thu, 29 Aug 2019 10:57:55 +0200
+
+golang-github-go-test-deep (1.0.2-1) unstable; urgency=medium
+
+  * d/watch: watch for tags
+  * New upstream version 1.0.2
+  * d/control: bump standards
+
+ -- Dawid Dziurla <dawidd0811@gmail.com>  Sat, 20 Jul 2019 00:57:13 +0200
+
+golang-github-go-test-deep (1.0.1+git20181118.042da05-1) unstable; urgency=medium
+
+  * Proper initial release (Closes: #927895)
+  * Upstream provided some useful patches that are
+    needed to properly run package tests and it
+    wasn't tagged yet.
+
+ -- Dawid Dziurla <dawidd0811@gmail.com>  Wed, 24 Apr 2019 23:23:47 +0200
